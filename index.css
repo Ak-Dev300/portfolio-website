@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #202020;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --bg-color: #2a2a2a;
+    --second-bg-color: #202020;
+    --text-color: #fff;
+    --second-color: #ccc;
+    --main-color: #ce83f7;
+    --big-font: 5rem;
+    --h2-font: 3rem;
+    --p-font: 1.1rem;
+}
+
+header{
+    padding: 20px 15%;
+    padding-bottom: 0px;
+    border-bottom: 1px solid transparent;
+    transition: all 0.45s ease;
+}
+
+header h2{
+    padding-top: 18px;
+}
+
+/* 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list li{
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+.nav-list li a:hover{
+    color: #bdd5fa;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: #ccc;
+}
+
+.nav-header{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 1px; 
+}
+
+.one{
+    color: #ce83f7;
+}
+
+#home{
+    background-color: aquamarine;
+    height: 100vh;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.two{
+    padding: 2px 8px;
+    background-color: #ce83f7;
+    border-radius: 2px;
+}
+
+.three{
+    font-size: 3rem;
+    font-weight: 900;
+    display: block;
+    padding-top: 20px;
+}
+
+.four{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.five{
+    color: #ce83f7;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.hello-btn{
+    padding: 5px 10px;  
+    background-color: #ce83f7;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.home{
+    padding: 160px 15% 120px;
+} 
+*/
+
+main{
+    padding: 20px 15% ;
+    font-size: 17px;
+    line-height: 22px;
+}
+
+footer{
+    padding: 5px 15%;
+    background-color: #2a2a2a;
+}
+
+span{
+    color: #ce83f7;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+h2{
+    text-align: center;
+}
+
+.return {
+    text-decoration: none;
+    background-color: var(--main-color);
+    color: var(--text-color);
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.return span i{
+    font-size: 15px;
+    color: var(--text-color);
+}
